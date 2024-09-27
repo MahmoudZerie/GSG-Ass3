@@ -1,0 +1,141 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+  }
+  nav.header{
+	width: 100%;
+	background-color:#3C3D37 ;
+	height: 65px;
+  }
+  div.bottom{
+	display: flex;
+	align-self: center;
+	justify-content: space-between;
+	width: 92%;
+	height: 87vh;
+  }
+  div.bottom div.left{
+	flex-basis: 62%;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+  }
+  div.bottom div.right{
+	flex-basis: 34%;
+	/* border: 1px solid black; */
+  }
+  div.top{
+	display: flex;
+	justify-content: space-between;
+  }
+  div.threeRectangulars{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 4px;
+  }
+  div.rec{
+	/* border: 1px solid black; */
+	width: 125px;
+	height: 35px;
+  }
+  div.left div.middle{
+	width: 100%;
+	height: 70vh;
+	background-color: #3C3D37;
+	margin-bottom: 30px;
+  }
+  div.left div.bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	column-gap: 10px;
+  }
+  div.left div.bottomRect{
+	flex-basis: 18%;
+	height: 135px;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+  }
+  div.left div.bigBottomRect{
+	width: 100%;
+	height: 60%;
+	background-color:#B7B7B7 ;
+  }
+  div.left div.paraBottom{
+	width: 100%;
+	height: 15px;
+	background-color: #E9EFEC;
+  }
+  div.right {
+	display: flex;
+	flex-direction: column;	
+	row-gap: 30px;
+  }
+  div.right div.top{
+	flex-basis: 45%;
+	width: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+  }
+  div.right div.top div.threeSmallRect{
+	display: flex;
+	justify-content: end;
+	column-gap: 8px;
+}
+  div.smallRect{
+	width: 35px;
+	height: 23px;
+	background-color: #B7B7B7;
+  }
+  div.bigRect{
+	width: 100%;
+	height: 100%;
+	background-color:#686D76;
+  }
+  div.right div.bottom{
+	flex-basis: 47%;
+	width: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+  }
+  div.tallRect{
+	width: 100%;
+	height: 40px;
+	background-color: #686D76;
+	row-gap: 15px;
+  }
+  div.card{
+	width: 100%;
+	height: 100px;
+	/* border: 1px solid blue; */
+	display: flex;
+	column-gap: 14px;
+  }
+  div.card div.pic{
+	flex-basis: 30%;
+	height: 100%;
+	background-color: #B7B7B7;
+	/* border: 1px solid purple; */
+  }
+  div.card div.para{
+	flex-basis: 70%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+  }
+  div.tallSmallRec{
+	width: 100%;
+	height: 10px;
+	background-color: #E9EFEC;
+  }
